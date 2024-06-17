@@ -34,7 +34,7 @@ git clone https://github.com/zeko4444/task-management.git
 ```
 2. Navigate to the project directory:
 ```js
-cd task-management-app
+cd task-management
 ```
 3. Open the index.html file in your web browser to view the application.
 ## Usage
