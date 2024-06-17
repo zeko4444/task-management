@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Tasks</h1>
+
+      <form id="task-form">
+        <input type="text" id="task-title" placeholder="Task Title" required />
+        <textarea
+          id="task-desc"
+          placeholder="Task Description"
+          required
+        ></textarea>
+        <button type="submit">Add Task</button>
+      </form>
+      <div class="search">
+        <input type="text" id="search-tasks" placeholder="Search Tasks" />
+        <button id="sort-tasks">Sort Tasks by Status</button>
+      </div>
+
+      <div id="tasks-container"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
